@@ -1,4 +1,4 @@
-- name: Setup Jenkins, Docker and Data Science Pipeline
+- name: Setup Jenkins, Docker , java and React Js app
   hosts: localhost
   become: yes
   roles:
