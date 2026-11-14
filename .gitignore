@@ -1,0 +1,33 @@
+# Terraform downloaded providers and modules
+.terraform/
+
+# Terraform state files and backups
+*.tfstate
+*.tfstate.*
+terraform.tfstate
+terraform.tfstate.backup
+
+# Terraform crash logs
+crash.log
+crash.*.log
+
+# Ignore all tfvars files by default
+*.tfvars
+*.tfvars.json
+
+# Allow safe variable files
+!terraform.tfvars
+!example.tfvars
+
+# Override files
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Terraform CLI configuration
+.terraformrc
+terraform.rc
+
+# Terraform state lock information
+.terraform.tfstate.lock.info
